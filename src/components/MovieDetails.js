@@ -1,12 +1,12 @@
 
 
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
+import { useParams, useNavigate } from 'react-router-dom'; // use Import useNavigate for navigation
 import './MovieDetails.css'; 
 
 const MovieDetails = () => {
   const { id } = useParams();
-  const navigate = useNavigate(); // useNavigate hook for navigation
+  const navigate = useNavigate(); // use useNavigate hook for navigation
   const [movie, setMovie] = useState(null);
   const [cast, setCast] = useState([]);
   const [relatedMovies, setRelatedMovies] = useState([]);

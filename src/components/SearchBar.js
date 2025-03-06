@@ -36,15 +36,7 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <div className="search-container">
-      {/* <h1>DataBaes</h1> */}
-      {/* <img src={logo} className='logo' /> */}
-      {/* <div className="logo-container">
-            <img
-              id="logo"
-              src="/images/logo.png"
-              alt="Logo"
-            />
-          </div> */}
+      
       <div className="search-bar">
         <input
           type="search"
