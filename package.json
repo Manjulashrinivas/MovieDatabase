@@ -13,8 +13,11 @@
     "react-router-dom": "^7.1.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
-    "plugins": ["@babel/plugin-proposal-private-property-in-object"]
+  
   },
+"devDependencies": {
+  "@babel/plugin-proposal-private-property-in-object": "^7.14.5" // Add this here
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "npm install --force && npm run build",
